@@ -1,0 +1,104 @@
+.banner {
+  background: url("https://media.cntraveler.com/photos/5db1d0dd11c1e500092e7133/master/pass/airbnb-ski-aspen-28328347.jpg")
+    center center;
+  height: 60vh;
+  position: relative;
+}
+
+.banner__info {
+  background-color: black;
+  color: white;
+  padding-left: 50px;
+  padding-top: 5px;
+  padding-right: 50px;
+  padding-bottom: 65px;
+  width: 400px;
+  font-family: var(--font-family);
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+  font-family: var(--font-family);
+  width: 400px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+  font-family: var(--font-family);
+}
+@media screen and (max-width: 700px) {
+  .banner {
+    height: 95vh;
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.7;
+  }
+
+  .banner__searchButton  {
+    max-width: 100%;
+    max-height: 100%;
+}
+.banner__info{
+  width: 100%;
+  height: auto;
+  background-color:black;
+
+}
+.banner__info h1{
+  font-size: 2rem;
+  color:white;
+  margin-top:0;
+  padding-left: 0px;
+  padding-top: 40px;
+  padding-right: 0px;
+  padding-bottom: 30px;
+}
+.banner__info h5{
+  font-size: 1.2rem;
+  font-weight: 700;
+  color:black;
+  margin-top:0;
+  padding-left: 0px;
+  padding-top: 5vh;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 5px;
+  justify-content: center;
+  font-size: 1rem;
+}
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+}

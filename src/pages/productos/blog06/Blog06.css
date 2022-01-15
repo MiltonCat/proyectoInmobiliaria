@@ -1,0 +1,17 @@
+.banner {
+  background-image: url("https://www.pexels.com/es-es/foto/taza-cama-habitacion-beber-7521473/")
+    center center;
+  height: 60vh;
+  position: relative;
+}
+
+.blog__title {
+  display: flex;
+  font-size: 1rem;
+  margin:0;
+  color:white;
+  font-family: var(--font-family);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
